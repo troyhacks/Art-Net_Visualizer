@@ -149,7 +149,7 @@ The map uses "logical-to-physical" format:
 
 ## ArtNetMap Usermod Config Format
 
-If you're using the WLEDMM artnetmap usermod, you can use its config file directly:
+If you're using the WLE-DMM artnetmap usermod, you can use its config file directly:
 
 ```
 {"n":28,"ch":510,"ip":"192.168.1.255","pad":0}
