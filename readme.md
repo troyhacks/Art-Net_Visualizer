@@ -122,7 +122,7 @@ python artnet_visualizer.py mymap.json -u 5 -p 100 -s 20
 
 ## LED Map Format
 
-Your JSON map file should have this structure:
+Your JSON map file should have this structure, same as WLED-MM uses:
 
 ```json
 {
@@ -149,7 +149,7 @@ The map uses "logical-to-physical" format:
 
 ## ArtNetMap Usermod Config Format
 
-If you're using the WLE-DMM artnetmap usermod, you can use its config file directly:
+If you're using the WLED-MM/WLED-MM-P4 artnetmap usermod, you can use its config file directly:
 
 ```
 {"n":28,"ch":510,"ip":"192.168.1.255","pad":0}
